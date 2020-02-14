@@ -1,6 +1,14 @@
 body {
-    background-image: url("../pictures/space4k.jpg");
+    background-image: url("../pictures/spaceHD.jpg");
     font-family: Montserrat;
+    background-size: 100% auto;
+}
+@media (min-width: 1921px) {
+    body {
+        background-image: url("../pictures/space4k.jpg");
+        font-family: Montserrat;
+        background-size: 100% auto;
+    }
 }
 
 h1 {
@@ -82,33 +90,11 @@ h1 {
 }
 
 .search select {
-    background: indigo;
-    color: white;
+    background: white;
+    color: black;
     padding: 10px;
     width: 250px;
     height: 50px;
     border: none;
     font-size: 20px;
-    -webkit-appearance: button;
-}
-
-.search::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    background: blueviolet;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f063";
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    font-size: 28px;
-    pointer-events: none;
-}
-
-.search:hover:before {
-    background: crimson;
 }

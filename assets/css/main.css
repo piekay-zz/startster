@@ -17,15 +17,15 @@
 body {
     font-family: 'Sarabun', sans-serif;
     text-align: center;
-    background-image: url("../pictures/space4k.jpg");
+    background-image: url("../pictures/spaceHD.jpg");
     background-size: 100% auto;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1921px) {
     body {
         font-family: 'Sarabun', sans-serif;
         text-align: center;
-        background-image: url("../pictures/spaceHD.jpg");
+        background-image: url("../pictures/space4k.jpg");
         background-size: 100% auto;
     }
 }

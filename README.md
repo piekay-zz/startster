@@ -24,7 +24,7 @@
 
 ## License BSD 3-Clause 
 
-    Copyright (c) 2018, Piekay
+    Copyright (c) 2020, Piekay
     All rights reserved.
     
     Redistribution and use in source and binary forms, with or without

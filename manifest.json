@@ -1,6 +1,6 @@
 {
   "name": "startster",
-  "version": "1.0",
+  "version": "0.1",
   "description": "An optimized Startpage for Searching and other stuff!",
   "manifest_version": 2,
   "options_page": "options.html",
