@@ -1,6 +1,6 @@
 # Startster
 
-> A Chrome start page designed to be easy to use and customizable
+> A Chrome start page designed to be comfortable and customizable
 
 ## Features:
 
@@ -10,7 +10,6 @@
 * Translations
 * Todo:
     *   Translations for other languages than english and german
-    *   Customizable page selector under the search bar
     *   Your requests
 
 
