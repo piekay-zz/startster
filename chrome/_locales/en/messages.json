@@ -10,7 +10,7 @@
   }, "search": {
     "message": "What are you searching for?"
   }, "search_options": {
-    "message": "Wähle deine Suchmaschine"
+    "message": "Choose your search engine"
   }, "search_engines": {
     "message": "Google,DuckDuckGo,Yahoo,Bing,Custom"
   }, "search_text": {
@@ -23,6 +23,8 @@
     "message": "Options saved!"
   }, "options_title": {
     "message": "Startster - Settings"
+  }, "options_heading": {
+    "message": "Settings"
   }, "save_button": {
     "message": "Save"
   }, "credits_title": {

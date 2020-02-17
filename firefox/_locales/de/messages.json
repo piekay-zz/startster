@@ -1,0 +1,33 @@
+{
+  "months":{
+    "message": "Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember"
+  }, "date": {
+    "message": "1.,2.,3.,4.,5.,6.,7.,8.,9.,10.,11.,12.,13.,14.,15.,16.,17.,18.,19.,20.,21.,22.,23.,24.,25.,26.,27.,28.,29.,30.,31."
+  }, "days": {
+    "message": "Sonntag,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag"
+  }, "prefix": {
+    "message": "der"
+  }, "search": {
+    "message": "Wonach suchst du?"
+  }, "search_options": {
+    "message": "Wähle deine Suchmaschine"
+  }, "search_engines": {
+    "message": "Google,DuckDuckGo,Yahoo,Bing,Benutzerdefiniert"
+  }, "search_text": {
+    "message": "Wähle deine Suchmaschine:"
+  }, "engine_text": {
+    "message": "Ersetze den Suchbegriff mit %s"
+  }, "engine": {
+    "message": "URL der Suchmaschine"
+  }, "saved": {
+    "message": "Einstellungen gespeichert"
+  }, "options_title": {
+    "message": "Startster - Einstellungen"
+  }, "options_heading": {
+    "message": "Einstellungen"
+  }, "save_button": {
+    "message": "Speichern"
+  }, "credits_title": {
+    "message": "Startster - Credits"
+  }
+}

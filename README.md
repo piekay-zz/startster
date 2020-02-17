@@ -10,6 +10,7 @@
 * Translations
 * Todo:
     *   Translations for other languages than english and german
+    *   Customizable page selector under the search bar
     *   Your requests
 
 

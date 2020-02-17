@@ -41,6 +41,7 @@ function translate() {
     var searchengines = chrome.i18n.getMessage("search_engines").split(",");
     var searchtext = chrome.i18n.getMessage("search_text");
     var save_button = chrome.i18n.getMessage("save_button");
+    var heading = chrome.i18n.getMessage("options_heading");
 
     document.getElementById("search-text").innerText = searchtext;
     document.getElementById("google").innerText = searchengines[0];
@@ -53,7 +54,7 @@ function translate() {
     document.getElementById("search-text").innerText = searchoptions;
     document.getElementById("title").innerText = title;
     document.getElementById("save").innerText = save_button;
-
+    document.getElementById("heading").innerText = heading;
 }
 
 document.addEventListener('DOMContentLoaded', restore_options);

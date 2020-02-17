@@ -23,6 +23,8 @@
     "message": "Einstellungen gespeichert"
   }, "options_title": {
     "message": "Startster - Einstellungen"
+  }, "options_heading": {
+    "message": "Einstellungen"
   }, "save_button": {
     "message": "Speichern"
   }, "credits_title": {

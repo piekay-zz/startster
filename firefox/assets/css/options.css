@@ -1,11 +1,11 @@
 body {
-    background-image: url("../pictures/spaceHD.jpg");
+    background-image: url("../pictures/spaceHD.webp");
     font-family: Montserrat;
     background-size: 100% auto;
 }
 @media (min-width: 1921px) {
     body {
-        background-image: url("../pictures/space4k.jpg");
+        background-image: url("../pictures/space4k.webp");
         font-family: Montserrat;
         background-size: 100% auto;
     }
@@ -51,20 +51,20 @@ h1 {
     font-size: 200%;
     transform: translate(-50%, -50%);
     left: 50%;
+    display: initial;
     position: absolute;
     align-items: flex-end;
-    display: flex;
     flex-wrap: wrap;
     color: white;
 }
 
 #engine {
     margin-top: 150px;
+    display: initial;
     transform: translate(-50%, -50%);
     left: 50%;
     position: absolute;
     align-items: flex-end;
-    display: flex;
     flex-wrap: wrap;
     padding: 10px;
     width: 400px;

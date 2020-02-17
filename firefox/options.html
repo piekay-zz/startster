@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title id="title">Startster - Settings</title>
+    <link rel="stylesheet" href="assets/css/options.css">
+    <link href="https://fonts.googleapis.com/icon?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+</head>
+<body>
+    <h1 align="center" id="heading">Settings</h1>
+    <div id="search-engines">
+        <div id="line_1">
+            <a id="search-text">Select search engine:</a>
+            <div class="search">
+                <select id="search">
+                    <option id="google" value="Google">Google</option>
+                    <option id="duckduckgo" value="DuckDuckGo">DuckDuckGo</option>
+                    <option id="yahoo" value="Yahoo">Yahoo</option>
+                    <option id="bing" value="Bing">Bing</option>
+                    <option id="custom" value="Custom">Custom</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <a id="engine-text">Replace the search item with &s</a>
+    <input type="text" id="engine" autocorrect="off" spellcheck="false" placeholder="HTTP link to search engine">
+    <div id="bottom">
+        <span id="status"></span>
+        <button id="save">Save</button>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/options.js"></script>
+    <script src="assets/js/ValueChanged.js"></script>
+</body>
+</html>

@@ -1,11 +1,11 @@
 body {
-    background-image: url("../pictures/spaceHD.jpg");
+    background-image: url("../pictures/spaceHD.webp");
     font-family: Montserrat;
     background-size: 100% auto;
 }
 @media (min-width: 1921px) {
     body {
-        background-image: url("../pictures/space4k.jpg");
+        background-image: url("../pictures/space4k.webp");
         font-family: Montserrat;
         background-size: 100% auto;
     }

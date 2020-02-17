@@ -1,0 +1,119 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    background-image: url("../pictures/spaceHD.webp");
+    background-size: 100% auto;
+}
+
+@media (min-width: 1921px) {
+    body {
+        font-family: 'Sarabun', sans-serif;
+        text-align: center;
+        background-image: url("../pictures/space4k.webp");
+        background-size: 100% auto;
+    }
+}
+
+#clock {
+    margin-top: 10%;
+    color: white;
+    font-size: 1200%;
+}
+
+#date {
+    color: lightgray;
+    font-size: 300%;
+}
+
+#search {
+    border-width: 0;
+    margin-top: 2%;
+    height: 6vh;
+    width: 50%;
+    font-size: 250%;
+    outline-width: 0;
+    border-radius: 60px;
+    padding: 0.7% 3% 0.7% 3%;
+}
+@media (min-height: 800px) {
+    #search {
+        border-width: 0;
+        margin-top: 2%;
+        height: 6vh;
+        width: 50%;
+        font-size: 250%;
+        outline-width: 0;
+        border-radius: 60px;
+        padding: 0.3% 3% 0.3% 3%;
+    }
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 150%;
+    color: white;
+}
+#center {
+    float: bottom;
+}
+#bottom a:link {
+    color:blue;
+}
+#bottom a:visited {
+    color: aqua;
+}
+#options {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    transition: 1s;
+}
+#options:hover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: rotate(360deg);
+    margin-top: 2px;
+    margin-left: 2px;
+    transition-property: margin-left, margin-top;
+    transition: 1s;
+}
+.material-icons.md-32 {
+    font-size: 32px;
+}
+#info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    margin-top: 2px;
+    margin-right: 2px;
+    transition: 1s;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 110%;
+}
