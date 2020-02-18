@@ -5,7 +5,7 @@ function startDate() {
     var days = chrome.i18n.getMessage("days").split(",");
     var prefix = chrome.i18n.getMessage("prefix");
 
-    document.getElementById('date').innerHTML = days[d.getDay()] + ", " + prefix + " " + date[d.getDate() - 1] + " " + months[d.getMonth()] + " " + d.getFullYear();
+    document.getElementById('date').appendChild(document.createTextNode(days[d.getDay()] + ", " + prefix + " " + date[d.getDate() - 1] + " " + months[d.getMonth()] + " " + d.getFullYear()));
 }
 document.addEventListener('DOMContentLoaded', function() {
     startDate();
