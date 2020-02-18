@@ -10,17 +10,13 @@
 * Translations
 * Todo:
     *   Translations for other languages than english and german
-    *   Customizable page selector under the search bar
     *   Your requests
 
 
 ## Installing Startser
-
-* Download source code
-* Extract the source code
-* Enable developer mode in Chrome
-* Click Load unpacked extension
-* Select the folder that contains the source code
+### Chrome:
+* Download startster.crx
+* Drag and Drop inside the extensions page
 
 ## License BSD 3-Clause 
 
