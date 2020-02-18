@@ -4,11 +4,10 @@
   "name": "startster",
   "version": "0.1",
   "description": "An optimized Startpage for Searching and other stuff!",
-  "options_page": "options.html",
   "default_locale": "en",
   "browser_specific_settings": {
     "gecko": {
-      "id": "addon@pascal-koelsch.de",
+      "id": "startster@pascal-koelsch.de",
       "strict_min_version": "42.0"
     }
   },

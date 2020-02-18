@@ -23,7 +23,7 @@ function restoreOptions() {
         if(res.search == null) {
             document.querySelector("#search").value = 'Google';
         }
-        if(document.getElementById("search").value === "Custom") {
+        if(res.search === "custom") {
             document.getElementById("engine").style.display = "initial";
             document.getElementById("engine-text").style.display = "initial";
         }else {

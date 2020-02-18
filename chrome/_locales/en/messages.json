@@ -16,7 +16,7 @@
   }, "search_text": {
     "message": "Choose search engine:"
   }, "engine_text": {
-    "message": "Replace the search item with %s"
+  "message": "Replace the search term with %s"
   }, "engine": {
     "message": "URL of the search engine"
   }, "saved": {
