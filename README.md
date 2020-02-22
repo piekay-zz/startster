@@ -15,8 +15,12 @@
 
 ## Installing Startser
 ### Chrome:
-* Download startster.crx
-* Drag and Drop inside the extensions page
+* Download latest startster.crx from [here](https://github.com/piekay/startster/releases)
+* Drag and Drop into the extensions page (chrome://extensions)
+### Firefox:
+* Download from [here](https://addons.mozilla.org/de/firefox/addon/startster/)
+* or download the latest version manually from [here](https://github.com/piekay/startster/releases)
+
 
 ## License BSD 3-Clause 
 
