@@ -9,7 +9,9 @@
 * Select search engine
 * Translations
 * Todo:
-    *   Translations for other languages than english and german
+    *   Translations for other languages than English and German
+    *   Custom CSS
+    *   Website shortcuts
     *   Your requests
 
 
